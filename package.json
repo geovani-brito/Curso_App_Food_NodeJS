@@ -1,0 +1,22 @@
+{
+  "name": "curso_app_food_nodejs",
+  "version": "1.0.0",
+  "description": "Projeto do curso de Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geovani-brito/Curso_App_Food_NodeJS.git"
+  },
+  "author": "Geovani Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geovani-brito/Curso_App_Food_NodeJS/issues"
+  },
+  "homepage": "https://github.com/geovani-brito/Curso_App_Food_NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
