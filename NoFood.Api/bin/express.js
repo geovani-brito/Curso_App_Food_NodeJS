@@ -16,7 +16,8 @@ mongoose.connect(
     { 
         useNewUrlParser: true,
         useUnifiedTopology: true 
-    })
+    });
+mongoose.set('useCreateIndex', true);
     
 
 module.exports = app;
