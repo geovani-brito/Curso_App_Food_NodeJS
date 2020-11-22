@@ -11,6 +11,12 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use('/api/categoria', categoriaRouter);
 app.use('/api/produto', produtoRouter);
 
-mongoose.connect(variables.Database.connection)
+mongoose.connect(
+    variables.Database.connection, 
+    { 
+        useNewUrlParser: true,
+        useUnifiedTopology: true 
+    })
+    
 
 module.exports = app;
