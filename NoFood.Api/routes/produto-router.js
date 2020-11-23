@@ -8,7 +8,7 @@ let _ctrl = new controller();
 
 router.get('/', _ctrl.get);
 router.get('/:id', _ctrl.getById);
-router.post('/:id', _ctrl.post);
+router.post('/', _ctrl.post);
 router.put('/:id', _ctrl.put);
 router.delete('/:id', _ctrl.delete);
 

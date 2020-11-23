@@ -2,6 +2,7 @@
 
 const mongoose = require('mongoose');
 const schema = mongoose.Schema;
+
 const categoriaModel = new schema({
     titulo: { trim: true, index: true, required: true, type: String },
     descricao: { type: String },
